@@ -65,8 +65,6 @@ public partial class SoundSettings : UserControl
 
     private void AddControl(TableLayoutPanel tableLayoutPanel, UserControl soundDataControl, int rowIndex, int columnSpan)
     {
-        // tableLayoutPanel.Size = new(tableLayoutPanel.Size.Width, tableLayoutPanel.Size.Height + 29);
-        // tableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 29F));
         tableLayoutPanel.Controls.Add(soundDataControl, 0, rowIndex);
         tableLayoutPanel.SetColumnSpan(soundDataControl, columnSpan);
     }
