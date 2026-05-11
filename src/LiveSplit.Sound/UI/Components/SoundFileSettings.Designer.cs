@@ -52,6 +52,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFilePath.Location = new System.Drawing.Point(149, 4);
             this.txtFilePath.Name = "txtFilePath";
+            this.txtFilePath.ReadOnly = true;
             this.txtFilePath.Size = new System.Drawing.Size(134, 19);
             this.txtFilePath.TabIndex = 1;
             this.txtFilePath.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtFilePath_DragDrop);
